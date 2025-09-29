@@ -6911,7 +6911,7 @@ if isStudio then
 		LoadingEnabled = true,
 		LoadingTitle = "Nebula Client (CSWZ Hub)",
 		LoadingSubtitle = "Loading script for Blade Ball",
-		KeySystem = true,
+		KeySystem = false,
 		KeySettings = {
 			Title = "Nebula Client | Key System",
 			Subtitle = "Blade Ball",
@@ -6927,14 +6927,14 @@ if isStudio then
 		}
 	})
 	
-	--[[local Window = CSWZ:CreateWindow({
+	local Window = CSWZ:CreateWindow({
 		Name = "CSWZ Example Window",
 		Subtitle = "Test",
 		LogoID = "6031097225",
 		LoadingEnabled = true,
 		LoadingTitle = "CSWZ Interface Suite",
 		LoadingSubtitle = "by Nebula Softworks",
-		KeySystem = true,
+		KeySystem = false,
 		KeySettings = {
 			Title = "CSWZ Example Key",
 			Subtitle = "Key System",
@@ -7112,7 +7112,7 @@ if isStudio then
 	s:CreateDropdown()
 
 	Tabs.Premium:BuildConfigSection()
-	Tabs.Premium:BuildThemeSection()]]
+	Tabs.Premium:BuildThemeSection()
 end
 
 -- THIS IS THE DEBUG DEMO, ONLY USED WHEN TESTING NEW ELEMENTS AND CODE
